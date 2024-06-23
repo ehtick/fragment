@@ -1,5 +1,70 @@
 # Changelog
 
+## [2.0.0](https://github.com/ehtick/fragment/compare/v2.0.0...v2.0.0) (2024-06-23)
+
+
+### Features
+
+* add back-reference in civil items ([880c21d](https://github.com/ehtick/fragment/commit/880c21dda216a3d95d6c86818fb577736277bcdd))
+* add logic to traverse curves and alignments ([cb73524](https://github.com/ehtick/fragment/commit/cb73524816ceadb0629ba001c4ffb326ce54428b))
+* add methods to traverse properties ([40f0891](https://github.com/ehtick/fragment/commit/40f0891fd963153607cc09cde530f413469f3873))
+* add more civil data to fragments ([92bc3b9](https://github.com/ehtick/fragment/commit/92bc3b931713b3e782d1f5c38dde1c9cf89b560e))
+* add more property methods ([1757358](https://github.com/ehtick/fragment/commit/1757358dc17c3e180ea245c470ab487c775dfbb7))
+* check that items to hide or show exist ([e54593f](https://github.com/ehtick/fragment/commit/e54593fb7075724c319c904f517371d07652e838))
+* create binary parser for streamed geometry ([65de359](https://github.com/ehtick/fragment/commit/65de3590e7992434de5a5725305b571c8e7b787c))
+* **docs:** implement typedoc config ([#13](https://github.com/ehtick/fragment/issues/13)) ([e5baf19](https://github.com/ehtick/fragment/commit/e5baf19bd1a70476eb9353c6e050ee49abda6807))
+* fix setVisibility type ([469d21a](https://github.com/ehtick/fragment/commit/469d21ab6475b3b474ad51fe85816524988d9737))
+* **fragments:** new method in FragmentsGroup ([#9](https://github.com/ehtick/fragment/issues/9)) ([45c1aae](https://github.com/ehtick/fragment/commit/45c1aae18f7f2093feb765a99a51bf792292a60c))
+* implements vertices retrieval logic in Fragment and FragmentsGroup ([3450b13](https://github.com/ehtick/fragment/commit/3450b13c280f5cb728ff14a153d020c737974adf))
+* improve civil items ([8ce4641](https://github.com/ehtick/fragment/commit/8ce46412aaea3588236ad28f818f6e87ea1f83d9))
+* improve FragmentsGroup type ([2768f33](https://github.com/ehtick/fragment/commit/2768f33e4f880f3b6fcfaca653f04ce0cb9b20f2))
+* improve reset color logic ([f6b4bde](https://github.com/ehtick/fragment/commit/f6b4bde8527f32dbcaad9d130746c72effc19421))
+* make color per item editable ([475f209](https://github.com/ehtick/fragment/commit/475f209f3ac20a3f499391c4c44751762e0b4289))
+* make fragmentsgroup properties protected ([787ede6](https://github.com/ehtick/fragment/commit/787ede6c3cb5089078609f96fb3ac963f402cebf))
+* make geometry id a number ([bfffee6](https://github.com/ehtick/fragment/commit/bfffee6d56b41ab2ae31f2beab0936af818684bb))
+* make streamed properties non-zipped ([c5e6eb2](https://github.com/ehtick/fragment/commit/c5e6eb2d7d24eb8c95316867e6763cb2c4c058a8))
+* remove merged fragments ([dfbffc6](https://github.com/ehtick/fragment/commit/dfbffc6c7d470eb4e5f35ba6439475cfca78737e))
+* remove merged fragments ([8f44513](https://github.com/ehtick/fragment/commit/8f445132ad751452c1bb1f1932573d7f4f6a35f3))
+* reset yarn.lock ([2f91f2f](https://github.com/ehtick/fragment/commit/2f91f2f109298c3344a095e0c65b83ba77493c95))
+* restore BVH ([096172c](https://github.com/ehtick/fragment/commit/096172cd894a6121f9b0b78c263611be910ceff1))
+* restructure repo, add package to thatopen org ([46b3429](https://github.com/ehtick/fragment/commit/46b34293fef7d69e1d6b63f66ccd6e42f4aaa8df))
+* **test commit:** try submitting empty commit ([#5](https://github.com/ehtick/fragment/issues/5)) ([3b717ca](https://github.com/ehtick/fragment/commit/3b717caa4bae77c39cef44a4ab4230ca819ffeeb))
+* update patch version ([819d749](https://github.com/ehtick/fragment/commit/819d749aea0dc8a0abe68809bc9c3f0f80d29f5e))
+
+
+### Bug Fixes
+
+* add geometry id after start creating geometry ([9d3f601](https://github.com/ehtick/fragment/commit/9d3f6011150970f97559f2ba6925df31a1bb2973))
+* add guard for geometry disposal (was failing when streaming) ([9588048](https://github.com/ehtick/fragment/commit/95880486e5f657a0c6c9267cfb2bda3f9d02a12b))
+* add guard to dispose bounds tree ([e161a3c](https://github.com/ehtick/fragment/commit/e161a3c3c8b17393994effde7c501d6f253d0350))
+* add index to curves edges geometry ([32c0ec7](https://github.com/ehtick/fragment/commit/32c0ec70c8f8f9d9aea6dd7c4880091d62154d7b))
+* adjust add items behavior ([a93a7fb](https://github.com/ehtick/fragment/commit/a93a7fb85dd499db8f6c3b1c9622d8c05cd0a631))
+* build repo before publish ([57b9d95](https://github.com/ehtick/fragment/commit/57b9d95296d0ba28aee1fa441b350b8f85daa72c))
+* correct civil getPoint when percentage = 1 ([e68330b](https://github.com/ehtick/fragment/commit/e68330bf133e45114ba29b62fda68879866d3809))
+* correct error when fetching all items of type ([fc3f701](https://github.com/ehtick/fragment/commit/fc3f7016798feb3c6b98d05350806543ecec6a23))
+* correct fragment resize ([58d894c](https://github.com/ehtick/fragment/commit/58d894c36241399ccb6f2e835101818ea78d8aa2))
+* correct property fetching logic ([2bf0e9d](https://github.com/ehtick/fragment/commit/2bf0e9daac98176c3b3153b413993096070b2e51))
+* correct typo ([3cbdebd](https://github.com/ehtick/fragment/commit/3cbdebd1055eabfd8e4d20897bbef599df6a5fd0))
+* dispose user data when disposing a fragment ([f656574](https://github.com/ehtick/fragment/commit/f6565745ed225d0af70f5e2dd99cc04f2fc626f6))
+* get rid of FragmentsGroup memory leak ([6974afd](https://github.com/ehtick/fragment/commit/6974afd444e0b6f4391725939aad53f4645bf25d))
+* improve fragment add logic ([fe9afe3](https://github.com/ehtick/fragment/commit/fe9afe3d75f4af233a6dd0f3816312bb28a4c636))
+* make stream geometry id a string ([202197e](https://github.com/ehtick/fragment/commit/202197e1328220020a18a7429295d9517eefd39f))
+* misc corrections ([e5d0b28](https://github.com/ehtick/fragment/commit/e5d0b28a921de5c5c2b117b021c93691e70868c4))
+* prevent disposing null geometrys (can happen in streaming) ([ed0936f](https://github.com/ehtick/fragment/commit/ed0936fed39d71664349f4b859f61cda0f872b2a))
+* prevent empty colors array in get method ([040aa8a](https://github.com/ehtick/fragment/commit/040aa8af34de99f8d516ddcba869858f2a044fd9))
+* **publish-repo:** fix publish repo with yarn command ([faca55b](https://github.com/ehtick/fragment/commit/faca55bcf7b0ae4da85664edcc8b681a1bd71f69))
+* rename geometry id in flatbuffers ([72d668d](https://github.com/ehtick/fragment/commit/72d668d6cec02b4e9d9e860ad5af4266378e3172))
+* support empty geometries for fragments ([082a3c2](https://github.com/ehtick/fragment/commit/082a3c2ed1515fc63c238fcf637a70ea9f2c2cbd))
+* swap color information when hiding items ([e44962b](https://github.com/ehtick/fragment/commit/e44962bb02ba5855e9afc2b805baca837bf55f3b))
+* various fixes for streaming ([4ef1b35](https://github.com/ehtick/fragment/commit/4ef1b3502570d32d7cc94000effcf4393d263806))
+
+
+### Miscellaneous Chores
+
+* release 1.2.0 ([eed7f84](https://github.com/ehtick/fragment/commit/eed7f8466ddf641e13b20824e4af0bc3914c2193))
+* release 1.4.1 ([f284eec](https://github.com/ehtick/fragment/commit/f284eec3972d60d54712b588b927019f3beeafad))
+* release 2.0.0 ([a7c5954](https://github.com/ehtick/fragment/commit/a7c59541eb308331ef29a230f4da057131dc89a7))
+
 ## [2.0.0](https://github.com/ThatOpen/engine_fragment/compare/v1.5.0...v2.0.0) (2024-05-22)
 
 
